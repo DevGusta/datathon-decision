@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+*.pkl
+*.joblib
+venv/
+.envrc
+dist/
+*.egg-info
+predictions.log
+data/features.csv
+.idea/
