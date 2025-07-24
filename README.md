@@ -15,21 +15,15 @@ Este projeto demonstra como treinar e disponibilizar um modelo de Machine Learni
 │   ├── applicants.json
 │   ├── prospects.json
 │   ├── vagas.json
-├── data/
-│   └── features.csv            # Gerado após o treino
 ├── notebooks/
 │   └── treinamento_modelo.ipynb
 ├── src/                        # Código fonte
 │   ├── app.py                  # API FastAPI
 │   ├── data_loader.py          # Utilitários de leitura
-│   ├── feature_store.py        # Armazenamento das features
-│   ├── dashboard.py            # Painel de monitoramento
 │   ├── model.py                # Funções de modelagem
 │   └── monitor.py              # Registro das previsões
 ├── tests/                      # Testes unitários
-│   ├── test_api.py
-│   ├── test_feature_store.py
-│   └── test_model.py
+│   └── test_api.py
 ├── model.joblib                # Modelo treinado
 ├── predictions.log             # Log de previsões
 ├── requirements.txt
